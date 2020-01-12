@@ -5,6 +5,14 @@ body{
 	background-color: #443D4E;
 }
 
+a{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+
 p{
 	font-family: Open Sans;
 	color: #fff;
