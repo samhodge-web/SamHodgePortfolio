@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+body{
+	background-color: #443D4E;
+}
+
+p{
+	font-family: Open Sans;
+	color: #fff;
+}
+
+.wrapper{
+	margin: auto 0px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0px;
+	
+}
+
+.section{
+	background-color: #443D4E;
+	flex-grow: 1;
+	width: 98%;
+	height: 22.5vh;
+	margin: 0px;
+	padding-bottom: 20px;
+
+}
+
+.one{
+	/*background-color: green;*/
+	
+
+}
+
+.menu{
+	height: 100%;
+	width: 96%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+
+.menu h1{
+	flex:1 0 40px;
+	padding: 15px;
+	padding-right: 30px;
+}
+
+.two{
+	/*background-color: yellow;*/
+	text-align: center;
+
+}
+
+.two h1{
+	color: #fff;
+	font-family: Open Sans;
+	font-style: bold;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 40px;
+	/* or 95% */
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+.two h4{
+	font-family: Open Sans;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+	text-align: center;
+	margin: 0px;
+	color: #fff;
+}
+
+
+.three{
+	/*background-color: blue;*/
+	text-align: center;
+	margin-bottom: 10px;
+}
+.three p{
+	margin-top: 30px;
+}
+
+.four{
+	/*background-color: pink;*/
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	flex-direction: column;
+}
+
+.hamburger{
+	width: 33px;
+  	height: 6px;
+  	background-color: #fff;
+ 	margin: 3px 4px 3px 5px;
+}
+
+.top{
+	flex:1 0 40px;
+	background-color: #3A383A;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding: 15px;
+	min-width: 250px;
+}
+
+.middle{
+	flex:1 0 40px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.bottom{
+	flex:1 0 60px;
+	display: flex;
+	background-color: #3A383A;
+	margin: 0px;
+	align-items: center;
+	flex-wrap: wrap;
+
+
+}
+.social{
+	flex: 1 0 10px;
+}
+
+.bottom p{
+
+	margin: 10px;
+}
+/* icons provided by w3Schools 
+https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
+
+
+.fa {
+  padding: 25px;
+  font-size: 25px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.fa:hover {
+  opacity: 0.7;
+  border-radius:50%;
+}
